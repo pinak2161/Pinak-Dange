@@ -22,6 +22,7 @@ const Intro = () => {
                         Hire Me
                     </button>
                 </Link>
+                
             </div>
             <img src={bg} alt="profile" className="bg" />  
         </section>

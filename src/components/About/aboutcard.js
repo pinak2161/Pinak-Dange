@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Pinak Dada Rao Dange </span>
             from <span className="purple"> Pune, Maharashtra, India.</span>
             <br />
-            
+
             <div> I am currently pursuing my Bachelor's in Computer Science & Engineering at
             Savitribai Phule Pune University.
             </div>
