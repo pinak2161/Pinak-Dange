@@ -1,0 +1,100 @@
+/* General Section Styling */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    position: relative;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .purple {
+    color: #6a0dad;
+  }
+  
+  .about-content {
+    padding: 20px;
+  }
+  
+  .about-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* About Card */
+  .about-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .about-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Skillset and Tools Section */
+  .project-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .project-heading .purple {
+    color: #6a0dad;
+  }
+  
+  .techstack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .toolstack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .techstack-item,
+  .toolstack-item {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .techstack-item:hover,
+  .toolstack-item:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .techstack-item img,
+  .toolstack-item img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
